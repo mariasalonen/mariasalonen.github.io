@@ -1,0 +1,63 @@
+.cv-container {
+  margin-top: 2em;
+}
+
+.cv-tab-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+
+  :hover {
+    cursor: pointer;
+  }
+}
+
+.tabitem--inactive {
+  font-weight: 300;
+}
+
+.cv-item {
+  align-items: center;
+  width: 65%;
+  margin-top: 0.4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cv-item-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
+}
+
+.cv-prof-title {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.cv-item-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+  margin-top: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  width: 50%;
+}

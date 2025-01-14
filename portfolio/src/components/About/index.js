@@ -8,7 +8,7 @@ const About = () => {
     <>
       <Container>
         
-        <Row xs={1} md={2} lg={2}>
+        <Row className="about-section" xs={1} md={2} lg={2}>
           <Col className="about-column-img col-6"><img src={portrait} alt="Maria Salonen"></img></Col>
           <Col className="about-column-text col-6">
             {" "}
