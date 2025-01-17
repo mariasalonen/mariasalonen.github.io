@@ -3,6 +3,7 @@ import Experience from "./experience";
 import Education from "./education";
 import Skills from "./skills";
 import "./cv.css";
+import cvFinnish from "./cv-finnish.pdf";
 
 const { useState } = React;
 
@@ -43,6 +44,7 @@ const Cv = () => {
              return active === id ? content : ''
            })}
          </div>
+         <div className="download-button"><a href={cvFinnish} target='_blank' download="cv-finnish.pdf">LATAA CV</a></div>
         </div>
      )
    }
