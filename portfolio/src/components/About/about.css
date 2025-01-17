@@ -11,28 +11,30 @@
 .about-column-img {
   padding: 20px;
   width: 35%;
-  img {
-    width: 55%;
-    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.2);
-  }
+}
+
+.portrait-img {
+  width: 55%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .about-column-text {
   padding: 20px;
-    width: 65%;
-    p, h3 {
-        text-align: left;
-        width: 75%;
+  width: 65%;
+  p,
+  h3 {
+    text-align: left;
+    width: 75%;
+  }
+  .contact-info {
+    font-size: 0.8em;
+    a {
+      text-decoration: none;
+      color: black;
+      margin-left: 2.5%;
     }
-    .contact-info {
-        font-size: 0.8em;
-        a {
-            text-decoration: none;
-            color: black;
-            margin-left: 2.5%;
-        }
-        b{
-            margin-right: 2.5%;
-        }
+    b {
+      margin-right: 2.5%;
     }
+  }
 }

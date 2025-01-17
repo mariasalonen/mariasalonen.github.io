@@ -19,7 +19,7 @@ const Skills = () => {
             <div className="skills-header">KIELITAITO</div>
             <p className="cv-item-text">
               Suomi - Äidinkieli <br></br>
-              Englanti - Sujuva <br></br>
+              Englanti - Erinomainen <br></br>
               Ruotsi - Perusteet
             </p>
           </Col>
