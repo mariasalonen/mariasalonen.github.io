@@ -1,4 +1,8 @@
 import React from "react";
+import Agco from "./agco";
+import Checkmark from "./checkmark";
+import Crops from "./crops";
+import Port from "./port";
 import "../Cv/cv.css";
 
 const { useState } = React;
@@ -6,23 +10,24 @@ const { useState } = React;
 const tabItems = [
   {
     id: 1,
-    title: 'AGCO',
+    title: 'CASE AGCO',
     content: 'This is the content for AGCO',
+    content: <Agco />,
   },
   {
     id: 2,
-    title: 'CHECKMARK',
-    content: 'This is the content for CHECKMARK',
+    title: 'CASE CHECKMARK',
+    content: <Checkmark />,
   },
   {
     id: 3,
     title: 'CASE PORT',
-    content: 'This is the content for CASE port',
+    content: <Port />,
   },
   {
     id: 4,
     title: 'CASE CROPS',
-    content: 'This is the content for CASE CROPS',
+    content: <Crops />,
   },
 ];
 

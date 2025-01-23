@@ -21,6 +21,15 @@
 .about-column-text {
   padding: 20px;
   width: 65%;
+  h1 {
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 5em;
+    margin-bottom: 0.3em;
+    margin-top: 0%;
+  }
   p,
   h3 {
     text-align: left;

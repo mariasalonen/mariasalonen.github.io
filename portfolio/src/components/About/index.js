@@ -17,6 +17,7 @@ const About = () => {
           </Col>
           <Col className="about-column-text col-6">
             {" "}
+            <h1>MARIA SALONEN</h1>
             <h3>UX DESIGNER, SCRUM MASTER, FRONT END -KEHITTÄJÄ</h3>
             <p>
               Olen nopeasti uusiin rooleihin sopeutuva, monipuolinen
