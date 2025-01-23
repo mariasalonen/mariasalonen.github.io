@@ -14,6 +14,10 @@ const About = () => {
               src={portrait}
               alt="Maria Salonen"
             ></img>
+            <p className="contact-info">
+              measalonen@gmail.com
+              <a href="https://www.linkedin.com/in/salosenmaria/">LinkedIn</a>
+            </p>
           </Col>
           <Col className="about-column-text col-6">
             {" "}
@@ -28,10 +32,6 @@ const About = () => {
               tärkeää että kanssani on mukava tehdä töitä.
               <br></br>Arvostan merkityksellisiä projekteja, tukea ammatilliseen
               kehittymiseen sekä hyvää työkulttuuria.
-            </p>
-            <p className="contact-info">
-              <b>Yhteystiedot:</b> measalonen@gmail.com{" "}
-              <a href="https://www.linkedin.com/in/salosenmaria/">LinkedIn</a>
             </p>
           </Col>
         </Row>

@@ -28,22 +28,21 @@
     text-align: left;
     font-size: 5em;
     margin-bottom: 0.3em;
-    margin-top: 0%;
+    margin-top: -5%;
   }
   p,
   h3 {
     text-align: left;
     width: 75%;
   }
-  .contact-info {
-    font-size: 0.8em;
-    a {
-      text-decoration: none;
-      color: black;
-      margin-left: 2.5%;
-    }
-    b {
-      margin-right: 2.5%;
-    }
+
+}
+.contact-info {
+  font-size: 0.8em;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: black;
+    margin-left: 15%;
   }
 }
