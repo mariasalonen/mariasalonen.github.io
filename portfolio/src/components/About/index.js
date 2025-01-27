@@ -22,8 +22,11 @@ const About = () => {
           <Col className="about-column-text col-6">
             {" "}
             <h1>MARIA SALONEN</h1>
-            <h3>UX DESIGNER, SCRUM MASTER, FRONT END -KEHITTÄJÄ</h3>
-            <p>
+           {/* <h3 className="finnish">
+              UX DESIGNER, SCRUM MASTER, FRONT END -KEHITTÄJÄ
+            </h3>
+          
+            <p className="finnish">
               Olen nopeasti uusiin rooleihin sopeutuva, monipuolinen
               ammattilainen. Hallitsen kokonaisuuksia ja pidän langat käsissäni
               haastavissakin tilanteissa. Olen ratkaisukeskeinen, utelias
@@ -32,6 +35,20 @@ const About = () => {
               tärkeää että kanssani on mukava tehdä töitä.
               <br></br>Arvostan merkityksellisiä projekteja, tukea ammatilliseen
               kehittymiseen sekä hyvää työkulttuuria.
+            </p>*/}
+            <h3 className="english">
+              UX DESIGNER, SCRUM MASTER, FRONT END DEVELOPER AND MORE
+            </h3>
+            
+            <p className="english">
+              I am a versatile professional who quickly adapts to new roles. I
+              manage things and keep the strings in my hands even in challenging
+              situations. I am solution-oriented, curious about the world and
+              have excellent organizational and interpersonal skills. I maintain
+              and build team spirit; it is important to me that I’m fun to work
+              with.
+              <br></br>I appreciate meaningful projects, support for
+              professional development and a good work culture.
             </p>
           </Col>
         </Row>

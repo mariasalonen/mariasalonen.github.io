@@ -8,13 +8,9 @@ Nav {
   }
 }
 
-.brand-link {
-  text-decoration: none;
-  color: black;
-  font-family: "Permanent Marker", serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align: left;
-  font-size: 1.2em;
-  align-items: start;
+.language-dropdown {
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }

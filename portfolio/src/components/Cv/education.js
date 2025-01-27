@@ -8,10 +8,10 @@ const Education = () => {
         {" "}
         <div className="cv-item">
           <Row className="cv-item-header">
-            <Col>Johdatus Palvelumuotoiluun</Col>
+            <Col>Introduction to Service Design</Col>
             <Col>2024</Col>
           </Row>
-          <p className="cv-item-text">Lapin Yliopisto</p>
+          <p className="cv-item-text">University of Lapland</p>
         </div>
         <div className="cv-item">
           <Row className="cv-item-header">
@@ -36,22 +36,22 @@ const Education = () => {
         </div>
         <div className="cv-item">
           <Row className="cv-item-header">
-            <Col>Insinööri, Tieto- ja viestintätekniikka</Col>
+            <Col>Bachelor of Engineering, Information and communication technology</Col>
             <Col>2017 - 2020</Col>
           </Row>
-          <p className="cv-item-header cv-prof-title">Mediatekniikka</p>
-          <p className="cv-item-text">Jyväskylän Ammattikorkeakoulu</p>
+          <p className="cv-item-header cv-prof-title">Media Technology</p>
+          <p className="cv-item-text">Jyväskylä University of Applied Sciences</p>
         </div>
         <div className="cv-item">
           <Row className="cv-item-header">
-            <Col>Puutarhuri</Col>
+            <Col>Gardener</Col>
             <Col>2010 - 2013</Col>
           </Row>
           <p className="cv-item-text">Jämsän Ammattiopisto</p>
         </div>
         <div className="cv-item">
           <Row className="cv-item-header">
-            <Col>Ylioppilas</Col>
+            <Col>Secondary school graduate</Col>
             <Col>2002 - 2005</Col>
           </Row>
           <p className="cv-item-text">Cygnaeus-lukio</p>

@@ -13,13 +13,19 @@ const Experience = () => {
 
           <p className="cv-item-header cv-prof-title">UX Designer</p>
           <p className="cv-item-text">
-            Kerryttänyt laaja-alaista osaamista sekä kotimaisissa että
+            Gathered extensive expertise in both domestic and global software
+            projects in challenging operating environments as a UX/UI designer,
+            Scrum Master, Front end developer and Service designer. Participated
+            in the development of the company's UX maturity as the leader of the
+            UX task force. Prepared training materials and thus promoted the
+            sharing of information within the organization.
+            {/*  Kerryttänyt laaja-alaista osaamista sekä kotimaisissa että
             kansainvälisissä haastavien toimintaympäristöjen
             ohjelmistoprojekteissa UX/UI-suunnittelijana, Scrum Masterina, Front
             end -kehittäjänä ja Palvelumuotoilijana. Osallistunut yrityksen UX
             maturiteetin kehittämiseen taskforce -toiminnan vetäjänä. Laatinut
             koulutusmateriaaleja ja näin edistänyt tiedon jakamista
-            organisaation sisällä.
+            organisaation sisällä. */}
           </p>
         </div>
         <div className="cv-item">
@@ -30,8 +36,10 @@ const Experience = () => {
 
           <p className="cv-item-header cv-prof-title">Software Developer</p>
           <p className="cv-item-text">
-            Päivittänyt Joulupuu-keräyksen verkkosivuston ulkoasua
-            WordPress-julkaisualustalla. Työ tehty hyväntekeväisyytenä pro bono.
+            Updated the appearance of the Joulupuu charity campaign website on
+            the WordPress publishing platform. Work done pro bono.
+            {/* Päivittänyt Joulupuu-keräyksen verkkosivuston ulkoasua
+            WordPress-julkaisualustalla. Työ tehty hyväntekeväisyytenä pro bono.*/}
           </p>
         </div>
         <div className="cv-item">
@@ -45,12 +53,17 @@ const Experience = () => {
           </p>
 
           <p className="cv-item-text">
-            Toiminut erilaisissa myynti-, asiakaspalvelu- ja back office
+            Worked in various sales, customer service and back office tasks,
+            including Elisa and Saunalahti's application management, invoicing
+            and supporting ledger work, customer service, personal and business
+            customer management, job training and mentoring, order processing
+            and order management, consulting for problem situations
+            {/* Toiminut erilaisissa myynti-, asiakaspalvelu- ja back office
             -tehtävissä, sisältäen mm. Elisan ja Saunalahden sovellushallinta,
             laskutus ja avustavat reskontratyöt, asiakaspalvelu, henkilö- ja
             yritysasiakashallinta, työtehtävien koulutus ja mentorointi,
             tilauskäsittely ja tilauksien hallinta, ongelmatilanteiden
-            konsultointi
+            konsultointi*/}
           </p>
         </div>
       </Container>

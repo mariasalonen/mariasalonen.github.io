@@ -13,18 +13,25 @@ const Crops = () => {
       <Container className="cv-container">
         <div className="cv-item">
           <p className="cv-item-text">
-            'Case Crops' -projekti keskittyy viljan myyntiin ja ostoon.
+            Crops project is about selling and buying grain. In the system,
+            farmers can sell and deliver crops to the buyer. The buyer can set
+            price information for different grain varieties for the harvest
+            season, buy crops and manage cultivation agreements. I worked as a
+            UX/UI designer in the project.
+            {/* 'Case Crops' -projekti keskittyy viljan myyntiin ja ostoon.
             Järjestelmässä viljelijät voivat myydä ja toimittaa satoa ostajalle.
             Ostaja voi määrittää satokauden hintatietoja eri viljalajikkeille,
             ostaa satoa ja hallinnoida viljelysopimuksia. Toimin projektissa
-            UX/UI-suunnittelijana.
+            UX/UI-suunnittelijana.*/}
           </p>
-          <p className="cv-item-header cv-prof-title">HAASTE</p>
+          <p className="cv-item-header cv-prof-title">CHALLENGE</p>
           <p className="cv-item-text">
-            Sovelluksen käyttöliittymää haluttiin raikastaa ja päivittää
-            ajanmukaisemmaksi.
+            The user interface of the application was wanted to be refreshed and
+            updated to be more contemporary.
+            {/* Sovelluksen käyttöliittymää haluttiin raikastaa ja päivittää
+            ajanmukaisemmaksi.*/}
           </p>
-          <p className="cv-item-header cv-prof-title">RATKAISU</p>
+          <p className="cv-item-header cv-prof-title">SOLUTION</p>
           <p className="cv-item-text">
             Mitä ja miten tehty, jotain design jargonia ja kuvia
           </p>

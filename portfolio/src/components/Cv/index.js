@@ -4,23 +4,24 @@ import Education from "./education";
 import Skills from "./skills";
 import "./cv.css";
 import cvFinnish from "./cv-finnish.pdf";
+import cvEnglish from "./cv-english.pdf";
 
 const { useState } = React;
 
 const tabItems = [
   {
     id: 1,
-    title: 'TYÖKOKEMUS',
+    title: 'EXPERIENCE',
     content: <Experience />,
   },
   {
     id: 2,
-    title: 'KOULUTUS',
+    title: 'EDUCATION',
     content: <Education />,
   },
   {
     id: 3,
-    title: 'TTT - TAIDOT, TEKNOLOGIAT JA TYÖKALUT',
+    title: 'SKILLS, TOOLS & TECHNOLOGIES',
     content: <Skills />,
   },
 ];
@@ -44,7 +45,7 @@ const Cv = () => {
              return active === id ? content : ''
            })}
          </div>
-         <div className="download-button"><a href={cvFinnish} target='_blank' download="cv-finnish.pdf">LATAA CV</a></div>
+         <div className="download-button"><a href={cvEnglish} target='_blank' download="cv-english.pdf">DOWNLOAD CV</a></div>
         </div>
      )
    }
