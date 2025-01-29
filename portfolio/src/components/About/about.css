@@ -35,7 +35,6 @@
     text-align: left;
     width: 75%;
   }
-
 }
 .contact-info {
   font-size: 0.8em;
@@ -44,5 +43,26 @@
     text-decoration: none;
     color: black;
     margin-left: 15%;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+    text-align: center;
+    .about-column-img {
+      width: 100%;
+      padding: 0%;
+      margin-top: -5em;
+    }
+    h1 {
+      text-align: center;
+    }
+    p,
+    h3 {
+      width: 100%;
+    }
   }
 }

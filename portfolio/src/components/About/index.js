@@ -8,7 +8,7 @@ const About = () => {
     <>
       <Container>
         <Row className="about-section" xs={1} md={2} lg={2}>
-          <Col className="about-column-img col-6">
+          <Col className="about-column-img col-4">
             <img
               className="portrait-img"
               src={portrait}
@@ -19,7 +19,7 @@ const About = () => {
               <a href="https://www.linkedin.com/in/salosenmaria/">LinkedIn</a>
             </p>
           </Col>
-          <Col className="about-column-text col-6">
+          <Col className="about-column-text col-8">
             {" "}
             <h1>MARIA SALONEN</h1>
            {/* <h3 className="finnish">

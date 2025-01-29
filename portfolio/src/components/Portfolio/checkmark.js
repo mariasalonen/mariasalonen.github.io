@@ -25,7 +25,7 @@ const Checkmark = () => {
               lähtökohta
             </a>
           </p>
-          <p className="cv-item-header cv-prof-title">HAASTE</p>
+          <p className="cv-item-header cv-prof-title">THE CHALLENGE</p>
           <p className="cv-item-text">
             The customer wanted to develop a maintenance system based on IoT
             that would streamline maintenance of devices and prevent device
@@ -34,7 +34,7 @@ const Checkmark = () => {
             huoltojärjestelmän, jonka avulla sujuvoitettaisiin laitteiden
             huoltoja ja ennaltaehkäistäisiin laiterikkoja.*/}
           </p>
-          <p className="cv-item-header cv-prof-title">RATKAISU</p>
+          <p className="cv-item-header cv-prof-title">THE SOLUTION</p>
           <p className="cv-item-text">
             Mitä ja miten tehty, jotain design jargonia ja kuvia
           </p>

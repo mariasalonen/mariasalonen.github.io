@@ -17,7 +17,7 @@ const Port = () => {
             tietoa satamien tuottamista päästöistä ja niiden
             ympäristövaikutuksista. Toimin projektissa UX/UI-suunnittelijana.*/}
           </p>
-          <p className="cv-item-header cv-prof-title">CHALLENGE</p>
+          <p className="cv-item-header cv-prof-title">THE CHALLENGE</p>
           <p className="cv-item-text">
             The company wanted to offer its customers a way to track the
             emissions of ports and their environmental impacts in a
@@ -28,7 +28,7 @@ const Port = () => {
             formaatissa. Haasteena oli käsiteltävän datan moniulotteisuus ja sen
             esittäminen selkeästi ja käyttäjäystävällisesti.{" "}*/}
           </p>
-          <p className="cv-item-header cv-prof-title">SOLUTION</p>
+          <p className="cv-item-header cv-prof-title">THE SOLUTION</p>
           <p className="cv-item-text">
             Mitä ja miten tehty, jotain design jargonia ja kuvia
           </p>

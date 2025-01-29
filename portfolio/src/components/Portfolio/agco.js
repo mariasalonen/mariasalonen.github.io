@@ -15,7 +15,9 @@ const Agco = () => {
             allows farmers and maintenance staff to monitor the machines data
             generated (e.g. location, fuel consumption, machine condition) in
             real time. In the Connect project I worked as a UX designer, Scrum
-            Master and front end developer.
+            Master and front end developer. Below is a description of one of the
+            many features I designed in the project. I also got to implement
+            some of them myself.
           </p>
           <p className="cv-item-text">
             <a href="https://www.cinia.fi/referenssit/toiminnan-ennakoitavuutta-agcon-raskaan-kaluston-iot-ratkaisulla">
@@ -23,28 +25,40 @@ const Agco = () => {
             </a>
           </p>
           <p className="cv-item-text">
-            <a href="https://get.agcoconnect.com/">get.agcoconnect.com</a>
+            <a href="https://get.agcoconnect.com/">
+              Product website get.agcoconnect.com
+            </a>
           </p>
-          <p className="cv-item-header cv-prof-title">CHALLENGE</p>
+          <p className="cv-item-header cv-prof-title">THE CHALLENGE</p>
           <p className="cv-item-text">
             From the data sent by the machines, it is possible to predict
             machine failures. Customer wanted to prevent these by sending alerts
             to the maintenance staff when a customer's machine is in danger of
-            breaking down.
+            breaking down. <br></br> The challenge of the feature was the large
+            amount of data contained in one alert, its presentation and
+            prioritization on a mobile screen. The user should be able to see at
+            a glance the general situation of the alerts; which are the most
+            urgent and require immediate action.
             {/* Koneiden lähettämästä datasta pystytään ennakoimaan konerikkoja.
             Näitä halutaan ehkäistä lähettämällä huoltohenkilökunnalle
-            hälytyksiä, kun jokin asiakkaan kone on vaarassa vikaantua.*/}
+            hälytyksiä, kun jokin asiakkaan kone on vaarassa vikaantua.
+            
+            Ominaisuuden suunnittelussa haasteena oli yhden hälytyksen sisältämän 
+            datan suuri määrä, sen esittäminen ja priorisointi mobiilinäytöllä. 
+            Käyttäjän tuli pystyä näkemään yhdellä silmäyksellä hälytysten yleistilanne; 
+            mitkä ovat kiireisimpiä ja vaativat toimenpiteitä heti.*/}
           </p>
-          <p className="cv-item-header cv-prof-title">SOLUTION</p>
+          <p className="cv-item-header cv-prof-title">THE SOLUTION</p>
           <p className="cv-item-text">
-            A user interface was created through which the maintenance staff can
-            monitor and takes into consideration machine failure predictive
-            alerts. The user interface shows which device the alert concerns and
-            which part there is a risk of failure. The maintenance person can
-            contact you to the customer and agree on a maintenance visit,
-            download repair instructions and finally, set the alert ready
-            through the application.
-            {/* Luotiin käyttöliittymä, jonka kautta huoltohenkilökunta voi seurata
+            I designed in collaboration with the development team a user
+            interface through which the maintenance staff can monitor and handle
+            machine's proactive alerts. The user interface shows which
+            device the alert concerns and which part there is a risk of failure.
+            The maintenance person can contact the customer and agree on
+            a maintenance visit, download repair instructions and finally, set
+            the alert resolved through the application.
+            {/* Suunnittelin yhteistyössä kehitystiimin kanssa käyttöliittymän, 
+            jonka kautta huoltohenkilökunta voi seurata
             ja ottaa käsittelyyn konerikkoja ennakoivia hälytyksiä.
             Käyttöliittymä näyttää mitä laitetta hälytys koskee ja mikä osa
             siitä on vaarassa vikaantua. Huoltohenkilö voi ottaa yhteyttä
