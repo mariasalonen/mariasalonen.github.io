@@ -65,24 +65,24 @@ const Agco = () => {
             asiakkaaseen ja sopia huoltokäynnistä, ladata korjausohjeet ja
             lopksi kuitata hälytyksen valmiiksi sovelluksen kautta.*/}
           </p>
-          <Row className="portfolio-img-row">
-            <Col>
+          <Row className="portfolio-img-agco">
+            <Col className="portfolio-img-column">
               <img
-                className="portrait-img"
+                className="portfolio-img"
                 src={alertsView}
                 alt="alerts view"
               ></img>
             </Col>
-            <Col>
+            <Col className="portfolio-img-column">
               <img
-                className="portrait-img"
+                className="portfolio-img"
                 src={alertInfo}
                 alt="alert info"
               ></img>
             </Col>
-            <Col>
+            <Col className="portfolio-img-column">
               <img
-                className="portrait-img"
+                className="portfolio-img"
                 src={changeStatus}
                 alt="change alert status"
               ></img>

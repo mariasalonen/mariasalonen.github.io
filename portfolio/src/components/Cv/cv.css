@@ -68,12 +68,20 @@ hr {
   text-align: left;
 }
 
-.skills-right-col {
-  margin-right: 20em;
+.skills-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 65%;
+  margin-top: 0.2em;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 600;
 }
 
-.download-button{
-  box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.2);
+.download-button {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
   width: 30%;
   align-items: center;
   margin-left: auto;
@@ -82,37 +90,78 @@ hr {
   a {
     text-decoration: none;
     color: black;
-
   }
 }
 
-.download-button-english{
+.download-button-english {
   margin-top: 3em;
 }
 
-.download-button-finnish{
+.download-button-finnish {
   margin-top: 1em;
   margin-bottom: 3em;
 }
 
-.portfolio-img-row {
+.portfolio-img-agco {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: top;
+  width: 100%;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-img-crops {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100%;
   margin-top: 5em;
   margin-left: auto;
   margin-right: auto;
 }
 
+.portfolio-img-port {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-basis: calc(100% / 2);
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-img-column {
+  margin-left: 1em;
+  margin-right: 1em;
+  flex-grow: 1;
+  flex-basis: calc(100% / 2);
+}
+
+.portfolio-img {
+  width: 100%;
+  margin-bottom: 1em;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.portfolio-img-modals {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
 @media only screen and (max-width: 900px) {
-  .cv-tab-row, .portfolio-img-row{
+  .cv-tab-row,
+  .portfolio-img-row {
     width: 100%;
     flex-direction: column;
   }
-  .download-button{
+  .download-button {
     width: 50%;
   }
+  .skills-row {
+    width: 100%;
+    flex-direction: column;
+    margin-left: 40%;
+  }
 }
-

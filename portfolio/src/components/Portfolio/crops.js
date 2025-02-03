@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import acceptTimes from "./img/accept-tipping-time-new.png";
-import acceptTimesOld from "./img/accept-tipping-time-old.png";
-import addTimes from "./img/add-tipping-times-new.png";
-import addTimesOld from "./img/add-tipping-times-old.png";
-import frameAgreements from "./img/frame-agreements-new.png";
-import frameAgreementsOld from "./img/frame-agreements-old.png";
+import confirmTipping from "./img/confirm-tipping.png";
+import addTipping from "./img/add-tipping.png";
+import frameAgreements from "./img/frame-agreements.png";
+import tippingCalendar from "./img/tipping-calendar.png";
 
 const Crops = () => {
   return (
@@ -33,53 +31,38 @@ const Crops = () => {
           </p>
           <p className="cv-item-header cv-prof-title">THE SOLUTION</p>
           <p className="cv-item-text">
-            Mitä ja miten tehty, jotain design jargonia ja kuvia
+            Color palette was updated to be more modern and the user interface
+            was simplified, modernized and designed to appear more consistent. Icons and color coding were used to make the user interface more intuitive.
           </p>
-          <Row className="portfolio-img-row">
+          <Row className="portfolio-img-crops">
             <Col>
               <img
-                className="portrait-img"
-                src={frameAgreementsOld}
-                alt="Frame agreements, old version"
-              ></img>
-            </Col>
-            <Col>
-              <img
-                className="portrait-img"
+                className="portfolio-img"
                 src={frameAgreements}
-                alt="Frame agreements"
+                alt="Frame agreements view"
+              ></img>
+            </Col>
+            <Col>
+              <img
+                className="portfolio-img"
+                src={tippingCalendar}
+                alt="Calendar view for tipping times"
               ></img>
             </Col>
           </Row>
           <Row className="portfolio-img-row">
             <Col>
               <img
-                className="portrait-img"
-                src={addTimesOld}
-                alt="Add times, old version"
+                className="portfolio-img"
+                src={addTipping}
+                alt="Add tipping times"
               ></img>
             </Col>
             <Col>
               <img
-                className="portrait-img"
-                src={addTimes}
-                alt="Add times"
-              ></img>
-            </Col>
-          </Row>
-          <Row className="portfolio-img-row">
-            <Col>
-              <img
-                className="portrait-img"
-                src={acceptTimesOld}
-                alt="Accept times"
-              ></img>
-            </Col>
-            <Col>
-              <img
-                className="portrait-img"
-                src={acceptTimes}
-                alt="Accept times"
+                className="portfolio-img"
+                src={confirmTipping}
+                alt="Confirm tipping times"
               ></img>
             </Col>
           </Row>

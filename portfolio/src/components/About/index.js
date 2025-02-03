@@ -14,15 +14,11 @@ const About = () => {
               src={portrait}
               alt="Maria Salonen"
             ></img>
-            <p className="contact-info">
-              measalonen@gmail.com
-              <a href="https://www.linkedin.com/in/salosenmaria/">LinkedIn</a>
-            </p>
           </Col>
           <Col className="about-column-text col-8">
             {" "}
             <h1>MARIA SALONEN</h1>
-           {/* <h3 className="finnish">
+            {/* <h3 className="finnish">
               UX DESIGNER, SCRUM MASTER, FRONT END -KEHITTÄJÄ
             </h3>
           
@@ -39,16 +35,23 @@ const About = () => {
             <h3 className="english">
               UX DESIGNER, SCRUM MASTER, FRONT END DEVELOPER AND MORE
             </h3>
-            
             <p className="english">
-              I am a versatile professional who quickly adapts to new roles. I
-              manage things and keep the strings in my hands even in challenging
+              Hi there! <br></br>
+              <br></br>I'm a versatile professional. I adapt quickly into
+              new roles and can keep multiple hats on at the same time. I manage
+              things and keep the strings in my hands even in challenging
               situations. I am solution-oriented, curious about the world and
               have excellent organizational and interpersonal skills. I maintain
-              and build team spirit; it is important to me that I’m fun to work
+              and build team spirit; it's important to me that I'm fun to work
               with.
               <br></br>I appreciate meaningful projects, support for
-              professional development and a good work culture.
+              professional development and a good work culture.<br></br>
+              <br></br>
+              -Maria-
+            </p>
+            <p className="contact-info">
+              Contact me at <b> measalonen@gmail.com </b>or
+              <a href="https://www.linkedin.com/in/salosenmaria/"><b>LinkedIn</b></a>
             </p>
           </Col>
         </Row>

@@ -1,5 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import vesselEmissions from "./img/vessel-emissions.png";
+import vesselsList from "./img/vessels-list.png";
+import addPortcall from "./img/add-portcall-modals.png";
 
 const Port = () => {
   return (
@@ -32,6 +35,27 @@ const Port = () => {
           <p className="cv-item-text">
             Mitä ja miten tehty, jotain design jargonia ja kuvia
           </p>
+          <Row className="portfolio-img-port">
+            <Col className="portfolio-img-column">
+              <img
+                className="portfolio-img"
+                src={vesselEmissions}
+                alt="Emissions view"
+              ></img>
+            </Col>
+            <Col className="portfolio-img-column">
+              <img
+                className="portfolio-img"
+                src={vesselsList}
+                alt="Vessel list"
+              ></img>
+              <img
+                className="portfolio-img-modals"
+                src={addPortcall}
+                alt="Add portcall"
+              ></img>
+            </Col>
+          </Row>
         </div>
       </Container>
     </>
