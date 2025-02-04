@@ -18,14 +18,15 @@ const Experience = () => {
             Scrum Master, Front end developer and Service designer. Participated
             in the development of the company's UX maturity as the leader of the
             UX task force. Prepared training materials and thus promoted the
-            sharing of information within the organization.
+            sharing of information within the organization. Supported sales in
+            the offer making processes.
             {/*  Kerryttänyt laaja-alaista osaamista sekä kotimaisissa että
             kansainvälisissä haastavien toimintaympäristöjen
             ohjelmistoprojekteissa UX/UI-suunnittelijana, Scrum Masterina, Front
             end -kehittäjänä ja Palvelumuotoilijana. Osallistunut yrityksen UX
             maturiteetin kehittämiseen taskforce -toiminnan vetäjänä. Laatinut
             koulutusmateriaaleja ja näin edistänyt tiedon jakamista
-            organisaation sisällä. */}
+            organisaation sisällä. Toiminut tukena myynnin tarjousprosesseissa.*/}
           </p>
         </div>
         <div className="cv-item">

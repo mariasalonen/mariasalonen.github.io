@@ -39,13 +39,6 @@ const Port = () => {
             <Col className="portfolio-img-column">
               <img
                 className="portfolio-img"
-                src={vesselEmissions}
-                alt="Emissions view"
-              ></img>
-            </Col>
-            <Col className="portfolio-img-column">
-              <img
-                className="portfolio-img"
                 src={vesselsList}
                 alt="Vessel list"
               ></img>
@@ -53,6 +46,13 @@ const Port = () => {
                 className="portfolio-img-modals"
                 src={addPortcall}
                 alt="Add portcall"
+              ></img>
+            </Col>
+            <Col className="portfolio-img-column">
+              <img
+                className="portfolio-img"
+                src={vesselEmissions}
+                alt="Emissions view"
               ></img>
             </Col>
           </Row>

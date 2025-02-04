@@ -1,6 +1,6 @@
 Nav {
   text-align: right;
-
+  margin-top: 1em;
   a {
     text-decoration: none;
     color: black;
@@ -11,10 +11,9 @@ Nav {
 @media only screen and (max-width: 600px) {
   Nav {
     text-align: center;
-    a{
+    a {
       margin-right: 2em;
       margin-left: 2em;
     }
-
-}
+  }
 }
