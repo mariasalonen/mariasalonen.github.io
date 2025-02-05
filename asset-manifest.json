@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e3db2ddf.css",
+    "main.js": "/static/js/main.1aa19b96.js",
+    "static/js/488.9561f9b8.chunk.js": "/static/js/488.9561f9b8.chunk.js",
+    "static/media/portrait.jpg": "/static/media/portrait.eb5b4bce914d27ece0cc.jpg",
+    "static/media/frame-agreements.png": "/static/media/frame-agreements.c442dd19e6a1adeb7a0f.png",
+    "static/media/tipping-calendar.png": "/static/media/tipping-calendar.aa1fa947593e706830f7.png",
+    "static/media/vessel-emissions.png": "/static/media/vessel-emissions.d3110c9287048f2ef52c.png",
+    "static/media/vessels-list.png": "/static/media/vessels-list.cfee07ad53e677d1e765.png",
+    "static/media/confirm-tipping.png": "/static/media/confirm-tipping.351fc41007e08cabc3f8.png",
+    "static/media/add-tipping.png": "/static/media/add-tipping.7e020855da7cc1d483bc.png",
+    "static/media/add-portcall-modals.png": "/static/media/add-portcall-modals.7a9663ac189e7f2b3b6a.png",
+    "static/media/change-alert-status.png": "/static/media/change-alert-status.e1bee3ee9ebd8e833389.png",
+    "static/media/mob-alert-info.png": "/static/media/mob-alert-info.38f9e92485b94b714f13.png",
+    "static/media/cv-finnish.pdf": "/static/media/cv-finnish.b34246a4f6df7701a13c.pdf",
+    "static/media/cv-english.pdf": "/static/media/cv-english.6c5ddd6ed0da4b7c0bb2.pdf",
+    "static/media/alerts-view.png": "/static/media/alerts-view.998313b91ed500e73424.png",
+    "index.html": "/index.html",
+    "main.e3db2ddf.css.map": "/static/css/main.e3db2ddf.css.map",
+    "main.1aa19b96.js.map": "/static/js/main.1aa19b96.js.map",
+    "488.9561f9b8.chunk.js.map": "/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3db2ddf.css",
+    "static/js/main.1aa19b96.js"
+  ]
+}
