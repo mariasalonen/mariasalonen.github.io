@@ -29,7 +29,7 @@ const Agco = () => {
               Product website get.agcoconnect.com
             </a>
           </p>
-          <p className="cv-item-header cv-prof-title">THE CHALLENGE</p>
+          <p className="cv-item-header cv-prof-title">The Challenge</p>
           <p className="cv-item-text">
             From the data sent by the machines, it is possible to predict
             machine failures. Customer wanted to prevent these by sending alerts
@@ -48,7 +48,7 @@ const Agco = () => {
             Käyttäjän tuli pystyä näkemään yhdellä silmäyksellä hälytysten yleistilanne; 
             mitkä ovat kiireisimpiä ja vaativat toimenpiteitä heti.*/}
           </p>
-          <p className="cv-item-header cv-prof-title">THE SOLUTION</p>
+          <p className="cv-item-header cv-prof-title">The Solution</p>
           <p className="cv-item-text">
             I designed in collaboration with the development team a user
             interface through which the maintenance staff can monitor and handle

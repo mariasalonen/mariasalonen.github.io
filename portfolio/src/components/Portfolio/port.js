@@ -20,20 +20,29 @@ const Port = () => {
             tietoa satamien tuottamista päästöistä ja niiden
             ympäristövaikutuksista. Toimin projektissa UX/UI-suunnittelijana.*/}
           </p>
-          <p className="cv-item-header cv-prof-title">THE CHALLENGE</p>
+          <p className="cv-item-header cv-prof-title">The Challenge</p>
           <p className="cv-item-text">
             The company wanted to offer its customers a way to track the
-            emissions of ports and their environmental impacts in a
-            user-friendly format. The challenge was the multidimensionality of
+            emissions and their environmental impacts of ports in a
+            user-friendly format. The customer wanted the UI to reflect
+            environmental values. The challenge was the multidimensionality of
             the data and its presentation in a clear and user-friendly way.
             {/* Yritys halusi tarjota asiakkailleen keinon seurata satamien päästöjä
             ja niistä kertyviä ympäristövaikutuksia käyttäjäystävällisessä
             formaatissa. Haasteena oli käsiteltävän datan moniulotteisuus ja sen
             esittäminen selkeästi ja käyttäjäystävällisesti.{" "}*/}
           </p>
-          <p className="cv-item-header cv-prof-title">THE SOLUTION</p>
+          <p className="cv-item-header cv-prof-title">The Solution</p>
           <p className="cv-item-text">
-            Mitä ja miten tehty, jotain design jargonia ja kuvia
+            First look and feel of the application was designed. The customer
+            had some UI elements already made for another application, so the
+            new application was designed to match the existing elements. The
+            green color theme was chosen to reflect environmental values. The
+            data was divided into clear sections and the user can easily
+            navigate between them. The designs were reviewed and iterated with
+            the development team and customer throughout the process. Below
+            there are some screenshots from the app. The customer was very
+            pleased with the result.
           </p>
           <Row className="portfolio-img-port">
             <Col className="portfolio-img-column">

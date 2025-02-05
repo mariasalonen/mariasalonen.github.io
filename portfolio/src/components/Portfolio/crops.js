@@ -22,14 +22,14 @@ const Crops = () => {
             ostaa satoa ja hallinnoida viljelysopimuksia. Toimin projektissa
             UX/UI-suunnittelijana.*/}
           </p>
-          <p className="cv-item-header cv-prof-title">THE CHALLENGE</p>
+          <p className="cv-item-header cv-prof-title">The Challenge</p>
           <p className="cv-item-text">
             The user interface of the application was wanted to be refreshed and
             updated to be more contemporary.
             {/* Sovelluksen käyttöliittymää haluttiin raikastaa ja päivittää
             ajanmukaisemmaksi.*/}
           </p>
-          <p className="cv-item-header cv-prof-title">THE SOLUTION</p>
+          <p className="cv-item-header cv-prof-title">The Solution</p>
           <p className="cv-item-text">
             Color palette was updated to be more modern and the user interface
             was simplified, modernized and designed to appear more consistent. Icons and color coding were used to make the user interface more intuitive.

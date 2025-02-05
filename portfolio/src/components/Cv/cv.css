@@ -45,6 +45,11 @@
 
 .cv-prof-title {
   margin-top: 0%;
+  margin-bottom: 0.5em;
+}
+
+.cv-subheader{
+  margin-top: 0%;
   margin-bottom: 0%;
 }
 
@@ -66,6 +71,7 @@ hr {
 
 .skills-header {
   text-align: left;
+  margin-bottom: 0.5em;
 }
 
 .skills-row {

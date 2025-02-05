@@ -39,7 +39,7 @@ const Education = () => {
             <Col>Bachelor of Engineering, Information and communication technology</Col>
             <Col>2017 - 2020</Col>
           </Row>
-          <p className="cv-item-header cv-prof-title">Media Technology</p>
+          <p className="cv-item-header cv-subheader">Media Technology</p>
           <p className="cv-item-text">Jyväskylä University of Applied Sciences</p>
         </div>
         <div className="cv-item">
