@@ -29,7 +29,7 @@
     font-size: 5em;
     margin-bottom: 0.3em;
     margin-top: -5%;
-    color: #33759D;
+    color: #33759d;
   }
   p,
   h3 {
@@ -43,7 +43,7 @@
   margin-top: 0;
   a {
     text-decoration: none;
-    color: #0C0C0D;
+    color: #0c0c0d;
     margin-left: 0.5em;
   }
 }
@@ -51,7 +51,7 @@
 @media only screen and (max-width: 768px) {
   .about-section {
     flex-direction: column;
-    text-align: center;
+
     .about-column-img {
       width: 100%;
       padding: 0%;
@@ -60,11 +60,12 @@
     h1 {
       text-align: center;
       width: 100%;
-      font-size: 400%;
+      font-size: 350%;
     }
     p,
     h3 {
       width: 100%;
+      text-align: center;
     }
   }
 }

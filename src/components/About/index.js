@@ -37,7 +37,7 @@ const About = () => {
             </h3>
             <p className="english">
               Hi there! <br></br>
-              <br></br>I'm a versatile professional. I adapt quickly into
+              <br></br>Welcome to my page, happy to have you. I'm a versatile professional. I adapt quickly into
               new roles and can keep multiple hats on at the same time. I manage
               things and keep the strings in my hands even in challenging
               situations. I am solution-oriented, curious about the world and

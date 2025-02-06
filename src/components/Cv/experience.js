@@ -8,7 +8,7 @@ const Experience = () => {
         <div className="cv-item">
           <Row className="cv-item-header">
             <Col>Cinia Oy</Col>
-            <Col>04/2020 -</Col>
+            <Col className="cv-item-header-right-col">04/2020 -</Col>
           </Row>
 
           <p className="cv-item-header cv-prof-title">UX Designer</p>
@@ -32,7 +32,7 @@ const Experience = () => {
         <div className="cv-item">
           <Row className="cv-item-header">
             <Col>Keskuspuiston Nuorkauppakamari</Col>
-            <Col>10/2018 - 11/2018</Col>
+            <Col className="cv-item-header-right-col">10/2018 - 11/2018</Col>
           </Row>
 
           <p className="cv-item-header cv-prof-title">Software Developer</p>
@@ -46,7 +46,7 @@ const Experience = () => {
         <div className="cv-item">
           <Row className="cv-item-header">
             <Col>Manpower Group Oy</Col>
-            <Col>11/2006 - 08/2017</Col>
+            <Col className="cv-item-header-right-col">11/2006 - 08/2017</Col>
           </Row>
 
           <p className="cv-item-header cv-prof-title">
