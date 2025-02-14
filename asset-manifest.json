@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5487f0af.css",
-    "main.js": "/static/js/main.3ba8b7a0.js",
+    "main.js": "/static/js/main.f73fd3ac.js",
     "static/js/488.9561f9b8.chunk.js": "/static/js/488.9561f9b8.chunk.js",
     "static/media/portrait.jpg": "/static/media/portrait.eb5b4bce914d27ece0cc.jpg",
     "static/media/frame-agreements.png": "/static/media/frame-agreements.c442dd19e6a1adeb7a0f.png",
@@ -13,16 +13,16 @@
     "static/media/add-portcall-modals.png": "/static/media/add-portcall-modals.7a9663ac189e7f2b3b6a.png",
     "static/media/change-alert-status.png": "/static/media/change-alert-status.e1bee3ee9ebd8e833389.png",
     "static/media/mob-alert-info.png": "/static/media/mob-alert-info.38f9e92485b94b714f13.png",
-    "static/media/cv-finnish.pdf": "/static/media/cv-finnish.4ecc8fef48d02243d6ab.pdf",
-    "static/media/cv-english.pdf": "/static/media/cv-english.cf5cac993bbd8ca74fdf.pdf",
+    "static/media/cv-finnish.pdf": "/static/media/cv-finnish.491baad228c9f3de1574.pdf",
+    "static/media/cv-english.pdf": "/static/media/cv-english.aeda217ebcb9233f214d.pdf",
     "static/media/alerts-view.png": "/static/media/alerts-view.998313b91ed500e73424.png",
     "index.html": "/index.html",
     "main.5487f0af.css.map": "/static/css/main.5487f0af.css.map",
-    "main.3ba8b7a0.js.map": "/static/js/main.3ba8b7a0.js.map",
+    "main.f73fd3ac.js.map": "/static/js/main.f73fd3ac.js.map",
     "488.9561f9b8.chunk.js.map": "/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5487f0af.css",
-    "static/js/main.3ba8b7a0.js"
+    "static/js/main.f73fd3ac.js"
   ]
 }
